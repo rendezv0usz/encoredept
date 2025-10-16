@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Visual Studio - About Us</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Spline+Sans:wght@400;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+<script>
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#7f13ec",
+                        "background-light": "#f7f6f8",
+                        "background-dark": "#191022",
+                    },
+                    fontFamily: {
+                        "display": ["Spline Sans", "Noto Sans", "sans-serif"]
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                },
+            },
+        }
+    </script>
+</head>
+<body class="bg-background-light dark:bg-background-dark font-display text-white">
+<div class="relative flex h-auto min-h-screen w-full flex-col bg-background-dark group/design-root overflow-x-hidden">
+<div class="layout-container flex h-full grow flex-col">
+<div class="px-4 md:px-10 lg:px-40 flex flex-1 justify-center py-5">
+<div class="layout-content-container flex flex-col max-w-[960px] flex-1">
+<!-- Hero Section -->
+<div class="@container">
+<div class="@[480px]:p-4">
+<div class="flex min-h-[480px] flex-col gap-6 bg-cover bg-center bg-no-repeat @[480px]:gap-8 @[480px]:rounded-xl items-center justify-center p-4" data-alt="Dynamic key visual montage of T-POP artists" style='background-image: linear-gradient(rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.6) 100%), url("https://lh3.googleusercontent.com/aida-public/AB6AXuA-IeOfs9yrlX-__3JM2-qEazh5s-z9BOyyZsj6LK6eS05ySNNBG3JzTDMF_6HHg1e6pzJHmvTTLMgH7ZIQ_AveMJl1S8aNqNmr-yhrAw3T-UNfT0QzqNbu-8-pDuVNqzznF1SA89rmP0eU0V1tXEgmhQSzfIqeVQ3QfJvYb0y_Pfzmvb5nrR4KW5W8xkIero16wemugH89mQTzbgteWG8rDxpz5OgooE03y7tfV9YdTbnKSUIp6KodWaeyXZsEu61-I-Hb_nToDku9");'>
+<div class="flex flex-col gap-2 text-center">
+<h1 class="text-white text-4xl font-black leading-tight tracking-[-0.033em] @[480px]:text-5xl @[480px]:font-black @[480px]:leading-tight @[480px]:tracking-[-0.033em]">
+                                        Visual Studio
+                                    </h1>
+<h2 class="text-white text-sm font-normal leading-normal @[480px]:text-base @[480px]:font-normal @[480px]:leading-normal">
+                                        Crafting the Visual Identity of T-POP &amp; Thai Idol
+                                    </h2>
+</div>
+<button class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 @[480px]:h-12 @[480px]:px-5 bg-primary text-white text-sm font-bold leading-normal tracking-[0.015em] @[480px]:text-base @[480px]:font-bold @[480px]:leading-normal @[480px]:tracking-[0.015em] hover:bg-primary/80 transition-colors">
+<span class="truncate">Explore Our Work</span>
+</button>
+</div>
+</div>
+</div>
+<!-- About Section -->
+<div class="py-10 px-4">
+<h2 class="text-white text-[22px] font-bold leading-tight tracking-[-0.015em] pb-3 pt-5 text-center">About Our Studio</h2>
+<p class="text-white/80 text-base font-normal leading-normal pb-3 pt-1 text-center max-w-3xl mx-auto">
+                            We are a passionate team of designers dedicated to creating stunning visuals that capture the essence of T-POP and Thai Idol culture. Our journey began with a shared love for music and design, and a desire to elevate the visual experience for fans and artists alike.
+                        </p>
+<div class="flex w-full grow @container py-3">
+<div class="w-full gap-1 overflow-hidden @[480px]:gap-2 aspect-[16/9] flex rounded-xl">
+<div class="w-full bg-center bg-no-repeat bg-cover aspect-auto flex-1" data-alt="A modern and creative studio workspace with design tools" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBHvvCWiljEWDgz1zIaJ_s2cI3unj-Yn2xx1ThtVqUbqvU9BgWNq2uRM2i6i1F5AuPO5umfgtml7B29paM3xVdVUqw9KWqwH19UQboXnvBkJZgNCW66pBYjvCuQdb-upJ0sEb_suhwsHagcVn9ikCyi8bXbwbZUeCQhtI6aHBBchC18DxlOwGjcyrZSz3N4nOsQl74CfOwrrDragqRxMtUe1puHK61bOMjIC3m_SmqpbZVIjR0b8_tMZtaO6m7TXSEZ5Zs9aI0eKVG3");'></div>
+</div>
+</div>
+</div>
+<!-- Vision & Mission Section -->
+<div class="flex flex-col gap-10 px-4 py-10 @container">
+<div class="flex flex-col gap-4 text-center">
+<h1 class="text-white tracking-light text-[32px] font-bold leading-tight @[480px]:text-4xl @[480px]:font-black @[480px]:leading-tight @[480px]:tracking-[-0.033em] max-w-[720px] mx-auto">
+                                Vision &amp; Mission
+                            </h1>
+<p class="text-white/80 text-base font-normal leading-normal max-w-[720px] mx-auto">Our core principles that drive our creative process.</p>
+</div>
+<div class="grid grid-cols-[repeat(auto-fit,minmax(250px,1fr))] gap-4 p-0">
+<div class="flex flex-1 gap-3 rounded-xl border border-primary/20 bg-primary/10 p-6 flex-col items-center text-center">
+<div class="text-primary">
+<span class="material-symbols-outlined" style="font-size: 36px;">visibility</span>
+</div>
+<div class="flex flex-col gap-1">
+<h2 class="text-white text-lg font-bold leading-tight">Our Vision</h2>
+<p class="text-white/70 text-sm font-normal leading-normal">
+                                        To be the leading visual design studio that shapes the future of T-POP and Thai Idol aesthetics.
+                                    </p>
+</div>
+</div>
+<div class="flex flex-1 gap-3 rounded-xl border border-primary/20 bg-primary/10 p-6 flex-col items-center text-center">
+<div class="text-primary">
+<span class="material-symbols-outlined" style="font-size: 36px;">track_changes</span>
+</div>
+<div class="flex flex-col gap-1">
+<h2 class="text-white text-lg font-bold leading-tight">Our Mission</h2>
+<p class="text-white/70 text-sm font-normal leading-normal">
+                                        To deliver innovative and impactful designs that connect artists with their fans on a deeper level.
+                                    </p>
+</div>
+</div>
+</div>
+</div>
+<!-- Team Section -->
+<div class="py-10 px-4">
+<h2 class="text-white text-[22px] font-bold leading-tight tracking-[-0.015em] pb-3 pt-5 text-center">Meet the Team</h2>
+<p class="text-white/80 text-base font-normal leading-normal pb-8 pt-1 text-center max-w-3xl mx-auto">
+                           The creative minds behind the visuals. We are designers, artists, and most importantly, huge fans of T-POP.
+                        </p>
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 @container">
+<!-- Team Member Card -->
+<div class="group relative flex flex-col items-center text-center bg-primary/10 rounded-xl p-6 border border-primary/20 overflow-hidden transform transition-transform duration-300 hover:scale-105">
+<div class="absolute inset-0 bg-gradient-to-t from-primary/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+<img alt="Team Member 1" class="w-28 h-28 rounded-full object-cover mb-4 border-2 border-primary" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAnLH4FIt9Yq8gsFY9PrHAPrAXMrc9nnVXbUeBZyKNCT2K4WmoBGCws6bqiA8UeH2-FOzDagC9F5ZCQUQjCulUfB0JsrF0o0Lec8FbKtruFg_qstGIXXhPgDStK18R9V9jIcmTGv5MHYJN8QzZwvuzfl4K5YPGMgeEcObcaqXIIqags-M7WhwL6BwHHdI9-zYSVBE2aEsFx197Bt2lm2mF2d6G97ErRsE08srXXUSVEruodEx3fvuO2rHb5dI0OOWPaJxFmdRHOzE8Q"/>
+<h3 class="text-white text-lg font-bold">Alex Chen</h3>
+<p class="text-primary text-sm font-medium">Creative Director</p>
+<p class="text-white/70 text-sm mt-2">A visionary leader with a passion for storytelling through vibrant visuals.</p>
+</div>
+<!-- Team Member Card -->
+<div class="group relative flex flex-col items-center text-center bg-primary/10 rounded-xl p-6 border border-primary/20 overflow-hidden transform transition-transform duration-300 hover:scale-105">
+<div class="absolute inset-0 bg-gradient-to-t from-primary/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+<img alt="Team Member 2" class="w-28 h-28 rounded-full object-cover mb-4 border-2 border-primary" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC_RDPPqiCgEyUYqh_tSZg-xdYkwjKC5ImPS0OoKrnGaFeAiCQPcbWSS6tZRZsk4_v0up7BYw9Kd3VyUDop2V3tpCAlzJZA-mDyUgaXIBG76gELVdx5F2CcE-3vkFTqrXjyN3DoMoQdgudhFjUTWb407NQkG8fF5Ed-oi3zqe0Zm2BP-AObMriMppcLPzaJ5xBpZHr9G-dLZxNAx4egzeOeY_ijidaQppvBBGqCrjPYQvKKJt0X40y60vWEA2j0CTWuTJBGcsAoqBR-"/>
+<h3 class="text-white text-lg font-bold">Jane Doe</h3>
+<p class="text-primary text-sm font-medium">Lead Graphic Designer</p>
+<p class="text-white/70 text-sm mt-2">Master of typography and color, bringing energy to every design.</p>
+</div>
+<!-- Team Member Card -->
+<div class="group relative flex flex-col items-center text-center bg-primary/10 rounded-xl p-6 border border-primary/20 overflow-hidden transform transition-transform duration-300 hover:scale-105">
+<div class="absolute inset-0 bg-gradient-to-t from-primary/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+<img alt="Team Member 3" class="w-28 h-28 rounded-full object-cover mb-4 border-2 border-primary" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDg7N2ofpz5Gmv4b5j3BTgpyh0exjVPpDL9psc6D_yCc6-ZnAWv1p13yWhGVFCncMlie75lVJevbyMtySjxM5IyiEJMUEYgOdwSdCiwlHkKplPv0zJ-3idMfyhiuqnTugCJU_3DDwugXQORFll8GYYnkrbZl2siEe6d7A7xUMGv1pNNFZAc9XQ2S6bsAXN8Y1TF1kZasI5e2RDeJ0QRDYpnjfaJQ41K0bvhR6LhfIPDUDwbekJOH81dgmaHhY8om4HHpUbzM2INGtl1"/>
+<h3 class="text-white text-lg font-bold">Priya Singh</h3>
+<p class="text-primary text-sm font-medium">Motion Graphics Artist</p>
+<p class="text-white/70 text-sm mt-2">Brings static images to life, capturing the dynamic spirit of T-POP.</p>
+</div>
+</div>
+</div>
+<!-- Expertise Section -->
+<div class="py-10 px-4">
+<h2 class="text-white text-[22px] font-bold leading-tight tracking-[-0.015em] pb-3 pt-5 text-center">Our Expertise in T-POP</h2>
+<p class="text-white/80 text-base font-normal leading-normal pb-8 pt-1 text-center max-w-3xl mx-auto">
+                            We understand the unique culture of T-POP and Thai Idol fans. We create key visuals that resonate, excite, and build a stronger connection between artists and their audience.
+                        </p>
+<div class="flex w-full grow @container py-3">
+<div class="w-full gap-2 overflow-hidden @[480px]:gap-4 aspect-[16/9] flex rounded-xl">
+<div class="w-full bg-center bg-no-repeat bg-cover aspect-auto flex-1" data-alt="A collage of T-POP album covers and promotional materials designed by the studio" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCdv96T_eDysxC1pbCZPXs7vFnEo-mi_k4stHB_-8ZdioPlYALGLvWiBHBaxlK_aXOgAXkcWpDmXAiSVnxB2O6gYE8e138y8fTLfskKRnE203e2o-o6yHdociyoV84E7zMBeSon9HpCIhmSn49vdEXI5CSY4E7_AI8bcECX7_mxd_4lCI679KJVuQ_HS8k_k-rPmb2C5ADY4BZLMXkl0DI_wOyajSrIY-qPH84AWMpSteXlHLzHiu6YmD55KZM-iMel_wpMiX8tyhOC");'></div>
+</div>
+</div>
+</div>
+<!-- CTA Banner -->
+<div class="px-4 py-10">
+<div class="bg-primary rounded-xl flex flex-col md:flex-row items-center justify-between p-8 gap-6 text-center md:text-left">
+<div class="flex flex-col gap-2">
+<h2 class="text-white text-2xl font-bold leading-tight">Ready to create something amazing?</h2>
+<p class="text-white/80 text-base font-normal">Let's collaborate to make your next project shine.</p>
+</div>
+<button class="flex-shrink-0 min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-12 px-5 bg-white text-primary text-base font-bold leading-normal tracking-[0.015em] hover:bg-white/90 transition-colors">
+<span class="truncate">Contact Us</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body></html>
