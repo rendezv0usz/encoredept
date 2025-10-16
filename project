@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="th"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Our Clients - T-POP Design Studio</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Spline+Sans:wght@400;500;700;800&amp;family=Noto+Sans+Thai:wght@400;500;700&amp;display=swap" rel="stylesheet"/>
+<style>
+        body {
+            font-family: 'Spline Sans', 'Noto Sans Thai', sans-serif;
+        }
+    </style>
+<script>
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#7f13ec",
+                        "background-light": "#f7f6f8",
+                        "background-dark": "#191022",
+                    },
+                    fontFamily: {
+                        "display": ["Spline Sans", "Noto Sans Thai", "sans-serif"]
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                },
+            },
+        }
+    </script>
+</head>
+<body class="bg-background-light dark:bg-background-dark">
+<div class="relative flex h-auto min-h-screen w-full flex-col group/design-root overflow-x-hidden">
+<div class="layout-container flex h-full grow flex-col">
+<header class="flex items-center justify-between whitespace-nowrap border-b border-solid border-b-[#362348] px-4 sm:px-10 py-3 fixed top-0 left-0 right-0 bg-background-dark/80 backdrop-blur-sm z-50">
+<div class="flex items-center gap-4 text-white">
+<div class="size-6">
+<svg fill="none" viewbox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<path d="M39.5563 34.1455V13.8546C39.5563 15.708 36.8773 17.3437 32.7927 18.3189C30.2914 18.916 27.263 19.2655 24 19.2655C20.737 19.2655 17.7086 18.916 15.2073 18.3189C11.1227 17.3437 8.44365 15.708 8.44365 13.8546V34.1455C8.44365 35.9988 11.1227 37.6346 15.2073 38.6098C17.7086 39.2069 20.737 39.5564 24 39.5564C27.263 39.5564 30.2914 39.2069 32.7927 38.6098C36.8773 37.6346 39.5563 35.9988 39.5563 34.1455Z" fill="currentColor"></path>
+<path clip-rule="evenodd" d="M10.4485 13.8519C10.4749 13.9271 10.6203 14.246 11.379 14.7361C12.298 15.3298 13.7492 15.9145 15.6717 16.3735C18.0007 16.9296 20.8712 17.2655 24 17.2655C27.1288 17.2655 29.9993 16.9296 32.3283 16.3735C34.2508 15.9145 35.702 15.3298 36.621 14.7361C37.3796 14.246 37.5251 13.9271 37.5515 13.8519C37.5287 13.7876 37.4333 13.5973 37.0635 13.2931C36.5266 12.8516 35.6288 12.3647 34.343 11.9175C31.79 11.0295 28.1333 10.4437 24 10.4437C19.8667 10.4437 16.2099 11.0295 13.657 11.9175C12.3712 12.3647 11.4734 12.8516 10.9365 13.2931C10.5667 13.5973 10.4713 13.7876 10.4485 13.8519ZM37.5563 18.7877C36.3176 19.3925 34.8502 19.8839 33.2571 20.2642C30.5836 20.9025 27.3973 21.2655 24 21.2655C20.6027 21.2655 17.4164 20.9025 14.7429 20.2642C13.1498 19.8839 11.6824 19.3925 10.4436 18.7877V34.1275C10.4515 34.1545 10.5427 34.4867 11.379 35.027C12.298 35.6207 13.7492 36.2054 15.6717 36.6644C18.0007 37.2205 20.8712 37.5564 24 37.5564C27.1288 37.5564 29.9993 37.2205 32.3283 36.6644C34.2508 36.2054 35.702 35.6207 36.621 35.027C37.4573 34.4867 37.5485 34.1546 37.5563 34.1275V18.7877ZM41.5563 13.8546V34.1455C41.5563 36.1078 40.158 37.5042 38.7915 38.3869C37.3498 39.3182 35.4192 40.0389 33.2571 40.5551C30.5836 41.1934 27.3973 41.5564 24 41.5564C20.6027 41.5564 17.4164 41.1934 14.7429 40.5551C12.5808 40.0389 10.6502 39.3182 9.20848 38.3869C7.84205 37.5042 6.44365 36.1078 6.44365 34.1455L6.44365 13.8546C6.44365 12.2684 7.37223 11.0454 8.39581 10.2036C9.43325 9.3505 10.8137 8.67141 12.343 8.13948C15.4203 7.06909 19.5418 6.44366 24 6.44366C28.4582 6.44366 32.5797 7.06909 35.657 8.13948C37.1863 8.67141 38.5667 9.3505 39.6042 10.2036C40.6278 11.0454 41.5563 12.2684 41.5563 13.8546Z" fill="currentColor" fill-rule="evenodd"></path>
+</svg>
+</div>
+<h2 class="text-white text-lg font-bold leading-tight tracking-[-0.015em]">T-POP Design Studio</h2>
+</div>
+<div class="hidden md:flex flex-1 justify-end gap-8">
+<div class="flex items-center gap-9">
+<a class="text-white text-sm font-medium leading-normal" href="#">หน้าหลัก</a>
+<a class="text-white text-sm font-medium leading-normal" href="#">เกี่ยวกับเรา</a>
+<a class="text-primary text-sm font-bold leading-normal" href="#">ลูกค้าของเรา</a>
+<a class="text-white text-sm font-medium leading-normal" href="#">ติดต่อ</a>
+</div>
+<button class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 bg-primary text-white text-sm font-bold leading-normal tracking-[0.015em]">
+<span class="truncate">ดูผลงาน</span>
+</button>
+</div>
+</header>
+<main class="flex-1 pt-20">
+<div class="px-4 md:px-10 flex flex-1 justify-center py-5">
+<div class="layout-content-container flex flex-col max-w-[960px] flex-1">
+<div class="@container">
+<div class="@[480px]:p-4">
+<div class="flex min-h-[480px] flex-col gap-6 bg-cover bg-center bg-no-repeat @[480px]:gap-8 @[480px]:rounded-xl items-center justify-center p-4" data-alt="Abstract background image with purple and blue gradients, resembling a cosmic nebula." style='background-image: linear-gradient(rgba(25, 16, 34, 0.6) 0%, rgba(25, 16, 34, 0.8) 100%), url("https://lh3.googleusercontent.com/aida-public/AB6AXuBfBDHcQveBBv8XwsGUzkFopMElAXs0Qp3YQWD7PAXGdwjKvT-w8fA__pc7g-kEiRixCzLvYMTvV4OPB_ctpSqKIM5CgmiwuEXRQo-OH5rT_M4XocGlgmKgzAAXEJCSMuL3bQAZoP8Tm8qhJ3JzB45dPu7JpHcOXoyyuZqaQCJUsyAvKRUH5bXeQzB2317AHtaA-_Mq58Lbcxy6VnYkSCYt5zBAQeGSpH4UPCXrmw7uKWUOa2wBdfkltlrgs9OABkshMwwBiP1A1Eyx");'>
+<div class="flex flex-col gap-4 text-center">
+<h1 class="text-white text-4xl font-black leading-tight tracking-[-0.033em] @[480px]:text-5xl @[480px]:font-black @[480px]:leading-tight @[480px]:tracking-[-0.033em] font-display">
+                                            พันธมิตรที่ไว้วางใจเรา
+                                        </h1>
+<h2 class="text-white/80 text-base font-normal leading-normal @[480px]:text-lg @[480px]:font-normal @[480px]:leading-normal font-display max-w-2xl mx-auto">
+                                            เราภูมิใจที่ได้เป็นส่วนหนึ่งในการสร้างสรรค์ผลงานให้กับศิลปินและค่ายเพลงชั้นนำของวงการ T-POP
+                                        </h2>
+</div>
+</div>
+</div>
+</div>
+<div class="flex justify-center gap-2 sm:gap-3 p-3 flex-wrap pr-4 my-6">
+<div class="flex h-8 shrink-0 items-center justify-center gap-x-2 rounded-full bg-primary px-4 cursor-pointer">
+<p class="text-white text-sm font-medium leading-normal">ทั้งหมด</p>
+</div>
+<div class="flex h-8 shrink-0 items-center justify-center gap-x-2 rounded-full bg-[#362348] hover:bg-primary/50 transition-colors px-4 cursor-pointer">
+<p class="text-white/80 text-sm font-medium leading-normal">ศิลปินเดี่ยว</p>
+</div>
+<div class="flex h-8 shrink-0 items-center justify-center gap-x-2 rounded-full bg-[#362348] hover:bg-primary/50 transition-colors px-4 cursor-pointer">
+<p class="text-white/80 text-sm font-medium leading-normal">วงไอดอล</p>
+</div>
+<div class="flex h-8 shrink-0 items-center justify-center gap-x-2 rounded-full bg-[#362348] hover:bg-primary/50 transition-colors px-4 cursor-pointer">
+<p class="text-white/80 text-sm font-medium leading-normal">ค่ายเพลง</p>
+</div>
+<div class="flex h-8 shrink-0 items-center justify-center gap-x-2 rounded-full bg-[#362348] hover:bg-primary/50 transition-colors px-4 cursor-pointer">
+<p class="text-white/80 text-sm font-medium leading-normal">อีเวนต์</p>
+</div>
+</div>
+<div class="grid grid-cols-[repeat(auto-fill,minmax(158px,1fr))] gap-4 p-4">
+<div class="flex flex-col group">
+<div class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-lg bg-[#2a1a3a] flex items-center justify-center p-4 transition-all duration-300 group-hover:scale-105 group-hover:shadow-2xl group-hover:shadow-primary/30">
+<img class="h-10 object-contain" data-alt="Client Logo 1" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD8wkfGsPQHqi0svPzo756IkPo90rVpnKjofL4K4PUCA0EsavYSGFc85stXHGa-DVmPFOAZow996U_OTvjfXv1q7v12Du2MMsUJ5_at7enN3peRGUnFO7oaAz5zNu4IEHtljPrD8_YXI2hYmgjfnW0lzZNEFnz4nr_Wr38fq2X3pBz0BFrJSlpwQb2oAvHc6smNQG1St0K7-XoAYYrQ6SDPPdBbViTUbo1cjb_8qdcdULbPK5RcIo04zaqJUgRxbaFVXAA6qrLrkGpU"/>
+</div>
+</div>
+<div class="flex flex-col group">
+<div class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-lg bg-[#2a1a3a] flex items-center justify-center p-4 transition-all duration-300 group-hover:scale-105 group-hover:shadow-2xl group-hover:shadow-primary/30">
+<img class="h-10 object-contain" data-alt="Client Logo 2" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC4Qcn2ARKmNEM4CwP52n1PrAUDKOOJJ9rVr9EFygMXKF93x1V-fhDPniGwtzJwZrW-dHQe5Td3Uer339jKyeShs-eag1BOO0vdbYQCSuI92Zq95a79O5INs_TxfnsZHh7wc0cXJ8kT-TGKudET0xtN4yaec-PlOHcXC5gTmDjVYl490A_zgtUQEKLmDJkdZV-Ky02FZMlIwYErCu67gcLXKaDzlvs8I0qy_UYeSmnZnexHDFQ_Uv2oNgo_5Cp5Ip4a84K398Y93hw0"/>
+</div>
+</div>
+<div class="flex flex-col group">
+<div class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-lg bg-[#2a1a3a] flex items-center justify-center p-4 transition-all duration-300 group-hover:scale-105 group-hover:shadow-2xl group-hover:shadow-primary/30">
+<img class="h-10 object-contain" data-alt="Client Logo 3" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCuOcNKQOVzkhKeppwQGBp3JLBwhMtsFjzlVoXhQ2b0tyBkBVXVOBr2iXR3TWoelf_u6N4y5oyoX1bn9p1I8Ccn1-CyrROoOCYICLaOELotT2qb_VZ8mTURCEe13r61M46OoB8-3Zv48xI-xrvcdXiSeBw2YAKyr81sMhx5B-YmwQoLXcZu3ivSb1rhWfTzENmHtvgs5LOgOJ2OczyA0MmpXRBz3KciA3j6kN-6mZTbZ3U8XTbm9ldBcq7g3oMa0NpCVt1FygUDjchd"/>
+</div>
+</div>
+<div class="flex flex-col group">
+<div class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-lg bg-[#2a1a3a] flex items-center justify-center p-4 transition-all duration-300 group-hover:scale-105 group-hover:shadow-2xl group-hover:shadow-primary/30">
+<img class="h-10 object-contain" data-alt="Client Logo 4" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDk5mK51roe24uE5XZJeHdCgiwXeVv29RJexyaiP3om0DMIPxMz2qyn8PTzt834FIv1beVtkkX7baBrTn_h-T0n7CC3cnclebOu3dCwRmgBOCd7MjP7wKewRT071Ue9C8D9I9yIjrpEpL2s9RGTI6zXlCDlaWKZNhZsxnKd27NunDRksEtTqicXrLNKHhTnben8VTr4K-k55-Fv5yEl9AvojE9r8Z01Y_Jv6TUw4JuNfatWQGkdrWwyYLP7ZWmpw-WS8UVo-ZMxdElz"/>
+</div>
+</div>
+<div class="flex flex-col group">
+<div class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-lg bg-[#2a1a3a] flex items-center justify-center p-4 transition-all duration-300 group-hover:scale-105 group-hover:shadow-2xl group-hover:shadow-primary/30">
+<img class="h-10 object-contain" data-alt="Client Logo 5" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBFrcqZtch8pouUBYrlzUoHCVd54wvO7EtPRYgZNXRzA8dx3rykOc77TdOm8BwaA31xhsER5zrdJpLK9ecUDEdtM3wVis7gFO2V9cd11gAhZpE07mZq0-A2KJKpf6Uj6rR4o2gDGMTrpDTASuii1q8VDvpNVqZGIYrKPBEL5X7HfhTnSBTfRKmatQGL59STwK9CsGQMw_qAijHeeESxqb2wGodfHW8jdBOKbftZDPI5aKJX-QGsb1Yi3uLQoLAbe9BUiogBbACnh6Wc"/>
+</div>
+</div>
+<div class="flex flex-col group">
+<div class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-lg bg-[#2a1a3a] flex items-center justify-center p-4 transition-all duration-300 group-hover:scale-105 group-hover:shadow-2xl group-hover:shadow-primary/30">
+<img class="h-10 object-contain" data-alt="Client Logo 6" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC8rR4GmhKYoxLy31Np560ymQP0eKvtnW3vJlb21YD63lM2LInQil0v5cRTN8YPjmRUx6JXtecbSKJBE-x46bbViZ8jgbYTGGloeup6BSSb-Eh343lM1mmd3YZw4so_cpTWljLoG28PHgO2u0xrNJm8j8RFpEqzGqnEDcF0dNEniAwF6UT1BAOtm1xiMM5kEMJeDGEWzoVBEV-V_0OZ0dwZ0ix93xLUqQefMz2Q2zsrd84yG5Q3n10weBSMZoJfUperwH7xttQ9dvoA"/>
+</div>
+</div>
+<div class="flex flex-col group">
+<div class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-lg bg-[#2a1a3a] flex items-center justify-center p-4 transition-all duration-300 group-hover:scale-105 group-hover:shadow-2xl group-hover:shadow-primary/30">
+<img class="h-10 object-contain" data-alt="Client Logo 7" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDyEz3XZSXmxk54Pa5ElWfBUWQRYjjtxSiU3OwDmztdr57O8p4A_7yvWNQEmEKuCHMAoWOsGEIC4gJzkFywyrEskYmCmeoaWpAgeP9u5X0m1rvXW8L96CZ6hKOGTbSpCFBNF_BC_rKJZKSTPH6PzkKZZeVhnleEFSdkqXRppuZIs9ClNeMoD7D21h7VZLOgfvEaT6BY6OYlXjIOBPx2nUIRDVhef_XUCa0dmMOs5kxOaCOUjeJ_Mot93uxbsJbhVEguEtbM7MY64_49"/>
+</div>
+</div>
+<div class="flex flex-col group">
+<div class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-lg bg-[#2a1a3a] flex items-center justify-center p-4 transition-all duration-300 group-hover:scale-105 group-hover:shadow-2xl group-hover:shadow-primary/30">
+<img class="h-10 object-contain" data-alt="Client Logo 8" src="https://lh3.googleusercontent.com/aida-public/AB6AXuASDKBhM3aU9H8ZvbATr2VXPJvVnue6yFGIff2eF8TlnW_MQ-Cjz0FefJQgXTY93pTZYtpkWlVuIPvIyDrRDFRXytvzyswY8n5fr9o5hbkzyeW_2iiZ-VMzIyMnCjq9cPhbnnbt7sPDfabnjYH1z8lNZIyJ2nDFIpDfODaDVESiY_WMR8tD3oHcGt7eVaOPLgUEOs8y8EtIl3YOh0I7KllUYYFBRXRkN4JvQn50uJ4V_tmDgK7CarXDmPo7v5U8Jy5IjNeWYyEZbBO5"/>
+</div>
+</div>
+<div class="flex flex-col group">
+<div class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-lg bg-[#2a1a3a] flex items-center justify-center p-4 transition-all duration-300 group-hover:scale-105 group-hover:shadow-2xl group-hover:shadow-primary/30">
+<img class="h-10 object-contain" data-alt="Client Logo 9" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCjNkT2fyGJmYcZuQO-21GYw-pw-9AXwnmJQ3IIvDWZowlVCbBPuNnFX9hfgz-77uNaqtpq7X9uMr2ld3FEp46e8Yi57jjdf6ijl6B2I-OHu44EyXVYXYh4VvDGipYBMO8DRxmWAbSWPUCOco2QJpSJwD8ZwbtNtUkkZmc-2DRB5fWy5HHfpAtYYVnELVlBuXsP6q1unManS5lMRTF8xPR_QXAGcfzujODkqc73jzk-ZpMLHYPC6dksZQtvSE5OJKhSKFJnVgcDtG8N"/>
+</div>
+</div>
+<div class="flex flex-col group">
+<div class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-lg bg-[#2a1a3a] flex items-center justify-center p-4 transition-all duration-300 group-hover:scale-105 group-hover:shadow-2xl group-hover:shadow-primary/30">
+<img class="h-10 object-contain" data-alt="Client Logo 10" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBKYiAU1bRipHgGj_8RVWcyNKUhAH6g9wRGExG_jkmwVZ1iZfZhPIkqfP3-z9MMOduRTwiGusWGaLC_lZ1dOMd5vV5NsYGlf_8KyJeGLqsc5RMHntW3MsagTc5gSUQvW8uOKHuAgsjgb6R1qm3mgzW1M2tW-2wrOo6JJHFDBfl1mktOHesoMJZfsDHQWywC5USWbDW2YhJy67K-nebOoolf5HQwb6cRlsr9LQ28iUJOTQXzqeJguuCjTA17GHxQg5N7tDOdxWybsimR"/>
+</div>
+</div>
+<div class="flex flex-col group">
+<div class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-lg bg-[#2a1a3a] flex items-center justify-center p-4 transition-all duration-300 group-hover:scale-105 group-hover:shadow-2xl group-hover:shadow-primary/30">
+<img class="h-10 object-contain" data-alt="Client Logo 11" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAS83pWNCN0mQAjECg_ML05kW0ftVPq1VYemIGc-zoLqAnqXZBFyrqPnRSNiAzfh_zMlD9IIRC9MbudAYUhIaSKYsVYtqOfOHIHoXSPAAEC0QXZQ48i8e3P2qrl4H1lvOGoWp_bkPZDNRDYXvM8an4h3lWmqZHwkLjcL5OEEM_uzjmxnV2gHwTmQMrmnXWmRG4ORTgIoeZJh-PGiaNu9uFX8KyPJ-yB_25Tu4i3RGOIkr8ircUU1jJzrvrm_4NILpRepZMYNKH-aj7d"/>
+</div>
+</div>
+<div class="flex flex-col group">
+<div class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-lg bg-[#2a1a3a] flex items-center justify-center p-4 transition-all duration-300 group-hover:scale-105 group-hover:shadow-2xl group-hover:shadow-primary/30">
+<img class="h-10 object-contain" data-alt="Client Logo 12" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAZxGQMgc8gCR2WzQIce30XlnEh4IxHri4sHI6lBC9pY3BfjjSy13WAJ20GxC-t1YkGPZzQDVEa7iHGEN9Z-AMsbyrR-MD6WkA2LahpHiQ_iGxjIGGD8yeP1YIO5x9UYjLBENHNS6dVaVa5WJYlIvwVjIRWPsw8ss3RqOatEAw0LqyPtViz_E8Z5RtmtTSOioBbxv-8pQTFZbDaY6KPfksMoE8ZerHbyboHV36C98nn2ys6hdaXf0bd0vhsJ3KRQ9u3CU-XYd44ih72"/>
+</div>
+</div>
+</div>
+<div class="@container">
+<div class="flex flex-col justify-end gap-6 px-4 py-10 @[480px]:gap-8 @[480px]:px-10 @[480px]:py-20">
+<div class="flex flex-col gap-4 text-center">
+<h1 class="text-white tracking-light text-[32px] font-bold leading-tight @[480px]:text-4xl @[480px]:font-black @[480px]:leading-tight @[480px]:tracking-[-0.033em] max-w-[720px] mx-auto font-display">
+                                        พร้อมที่จะร่วมงานกับเราแล้วหรือยัง?
+                                    </h1>
+<p class="text-white/80 text-base font-normal leading-normal max-w-[720px mx-auto font-display">ให้เราช่วยเปลี่ยนวิสัยทัศน์ของคุณให้เป็นจริง</p>
+</div>
+<div class="flex flex-1 justify-center">
+<div class="flex justify-center">
+<button class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 @[480px]:h-12 @[480px]:px-5 bg-primary text-white text-sm font-bold leading-normal tracking-[0.015em] @[480px]:text-base @[480px]:font-bold @[480px]:leading-normal @[480px]:tracking-[0.015em] grow font-display transition-transform hover:scale-105">
+<span class="truncate">ร่วมงานกับเรา</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</main>
+</div>
+</div>
+</body></html>
